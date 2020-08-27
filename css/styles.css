@@ -1,0 +1,110 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800;900&display=swap');
+
+/* Root */
+:root {
+    --main-content-margin: 8vw;
+    --main-content-max-width: 50%;
+
+    --main-logo-size: 6rem;
+
+    --title-font-size: 3rem;
+    --body-font-size: 2rem;
+    --copyright-font-size: 1rem;
+
+    --margin-large: 4rem;
+    --margin-medium: 3rem;
+    --margin-regular: 2rem;
+    --margin-small: 1rem;
+}
+
+@media (max-width: 85rem) {
+    :root {
+        --main-content-max-width: 90%;
+
+        --main-logo-size: 2rem;
+
+        --title-font-size: 1rem;
+        --body-font-size: 0.8rem;
+        --copyright-font-size: 0.4rem;
+
+        --margin-large: 2rem;
+        --margin-medium: 1.5rem;
+        --margin-regular: 1rem;
+        --margin-small: 0.5rem;
+    }
+}
+
+html {
+    font-size: 100%;
+    width: 100%;
+}
+
+/* Main Content */
+.mainContainer {
+    margin-top: var(--main-content-margin);
+    margin-left: var(--main-content-margin);
+    margin-right: var(--main-content-margin);
+    max-width: var(--main-content-max-width);
+}
+
+/* Image */
+img {
+    pointer-events: none;
+}
+
+img#mainLogo {
+    width: var(--main-logo-size);
+    height: var(--main-logo-size);
+}
+
+img#copyrightLogo {
+    width: var(--copyright-font-size);
+    height: var(--copyright-font-size);
+}
+
+/* Headers */
+h1#introTitle {
+    font-family: barlow;
+    font-weight: bold;
+    color: #F4546C;
+    font-size: var(--title-font-size);
+    margin-top: var(--margin-large);
+}
+
+/* Body */
+.bodyText {
+    font-family: barlow;
+    font-weight: regular;
+    color: #A5B4B5;
+    font-size: var(--body-font-size);
+    text-align: justify;
+    margin-top: var(--margin-regular);
+}
+
+.bodyTextFirstWord {
+    color: black;
+}
+
+/* Updates */
+.updatesButton {
+    width: 10vw;
+    height: 3vw;
+    font-family: barlow;
+    font-weight: medium;
+    font-size: 1vw;
+    background-color: #56BEAD;
+    color: white;
+    border-radius: 1rem;
+    border-width: 0px;
+    margin-top: var(--margin-medium);
+}
+
+/* Copyright */
+.copyrightText {
+    font-family: barlow;
+    font-weight: medium;
+    color: #C9CED1;
+    font-size: var(--copyright-font-size);
+    margin-top: var(--margin-regular);
+}
