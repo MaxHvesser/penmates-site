@@ -1,59 +1,64 @@
 <!doctype html>
-
 <html lang="en">
-<head>
-  
-  <!-- Meta Tags-->
-  <meta charset="utf-8">
-  <meta name="description" content="A social platform for finding new friends">
-  <meta name="author" content="Penmates">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <head>
+    
+    <!-- Meta Tags-->
+    <meta charset="utf-8">
+    <meta name="description" content="A social platform for finding new friends">
+    <meta name="author" content="Penmates">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <!-- Local Styles-->
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-  <!-- Page Title -->
-  <title>Penmates - Coming Soon!</title>
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
 
-</head>
+    <!-- Page Title -->
+    <title>Penmates - Coming Soon!</title>
 
-<body>
-    <!-- Main Content -->
-    <div class="mainContainer">
+    </head>
 
-        <!-- Top Logo -->
-        <img id="mainLogo" src="images/pm-logo.svg"/>
-
-        <!-- Title -->
-        <h1 id="introTitle">
-            <span class="bodyTextFirstWord">Penmates</span>
-            <br/>
-            Create international friendships
-            <br/>
-            That last a lifetime
-        </h1>
-
-        <!-- Body -->
-        <div class="bodyText">
-            Penmates is an upcoming social platform that allows you to connect with people 
-            accross the globe. We make it easy to find and chat with people internationally 
-            through a platform tailored to making and keeping friends. Our penpal platform is 
-            free and easy to use with a beautiful and simple design, making it easy for you to 
-            focus on finding likeminded friends.
+    <body class="m-3 p-3 m-sm-5 p-sm-5">
+        
+        <!-- Main Content -->
+        <div class="jumbotron bg-white m-0 p-0">
+            <img src="images/pm-logo.svg" class="img-fluid">
+            <h1 class="display-5 mt-5 text-primary">
+                <strong>
+                    <span class="text-black">Penmates</span> 
+                    <br/>
+                    Create international friendships
+                    <br/>
+                    That last a lifetime
+                </strong>
+            </h1>
+            <p class="text-justify mt-4 text-secondary">
+                Penmates is an upcoming social platform that allows you to connect with people accross the globe. 
+                We make it easy to find and chat with people internationally through a platform tailored to making and keeping friends. 
+                Our penpal platform is free and easy to use with a beautiful and simple design, making it easy for you to focus on finding likeminded friends.
+            </p>
         </div>
 
-        <!-- Keep Me Updated Button -->
-        <button class="updatesButton">Keep me updated</button>
-
-        <!-- Copyright Notice -->
-        <div class="copyrightText">
-            <img id="copyrightLogo" src="images/pm-logo-outline.svg"/>
-            PENMATES 2020 &#169;
+        <!-- Keep Me Updated Form -->
+        <div class="input-group mt-5">
+            <input type="email" class="form-control" placeholder="email@address.com" aria-label="email@address.com" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button" id="button-addon2">Keep me updated</button>
+            </div>
         </div>
 
-    </div>
-</body>
+        <!-- Copyright -->
+        <p class="small mt-5 text-muted">
+            Copyright Penmates 2020 &#169;
+        </p>
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
 </html>
