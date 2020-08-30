@@ -1,7 +1,7 @@
 <p align="left">
    <img 
        src="https://raw.githubusercontent.com/MaxHvesser/penmates-site/b23f46489da36c1c020388d43dae1e0c84050ed9/images/pm-logo.svg"
-       height="80">
+       height="50">
    <br/>
 </p>
 
