@@ -1,6 +1,15 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800;900&display=swap');
 
+/* Root */
+:root {
+    /* Colors */
+    --primary: #F4546C;
+    --secondary: #56BEAD;
+    --text-secondary: #A5B4B5;
+    --text-light: #C9CED1;
+}
+
 /* Body Styling */
 body {
     font-family: 'Barlow', sans-serif !important;
@@ -15,23 +24,23 @@ body {
 
 /* Text */
 .text-primary {
-    color: #F4546C !important;
+    color: var(--primary) !important;
 }
 
 .text-secondary {
-    color: #A5B4B5 !important;
+    color: var(--text-secondary) !important;
 }
 
 .text-black {
-    color: #000000;
+    color: black;
 }
 
 .text-muted {
-    color: #C9CED1 !important;
+    color: var(--text-light) !important;
 }
 
 /* Button */
 .btn-primary {
-    background-color: #56BEAD !important;
-    border-color: #56BEAD !important;
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
 }
