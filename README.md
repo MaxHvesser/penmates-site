@@ -11,4 +11,4 @@ Penmates is an upcoming social platform that allows you to connect with people a
 
 #### This repository is the current holding page implementation
 
-You can see the site at [penmates.co](https://penmates.co). This site is built using [Boostrap](https://getbootstrap.com/) and at the moment features nothing but an input for email, where users can register their email address to keep updated on the projects progress.
+You can see the site at [penmates.co](https://penmates.co). This site is built using [Bootstrap](https://getbootstrap.com/) and at the moment features nothing but an input for email, where users can register their email address to keep updated on the projects progress.
